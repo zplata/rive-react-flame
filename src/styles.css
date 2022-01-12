@@ -1,0 +1,26 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.rive-container {
+  width: 200px;
+  height: 174px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.rive-container canvas {
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #7d1375, #1e032c);
+}
